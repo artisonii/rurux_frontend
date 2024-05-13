@@ -15,9 +15,7 @@ const Login = () => {
     const toast = useToast()
     const Login = async (url, obj) => {
         try {
-            const res = await axios.post(url + "/user/login", obj, {
-                withCredentials: true
-            })
+            const res = await axios.post(url + "/user/login", obj)
             console.log(res)
             setLogin(res.data.userData)
             toast({

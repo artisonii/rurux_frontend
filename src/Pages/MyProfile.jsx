@@ -17,7 +17,6 @@ const MyProfile = () => {
             });
 
             setData(res.data.data);
-            console.log(res)
         } catch (error) {
             console.log(error)
         }
