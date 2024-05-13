@@ -140,17 +140,27 @@ const Homepage = () => {
 
     useEffect(() => {
         setFormData(editData);
-        const subjectsObject = editData?.subjects?.reduce((obj, item) => {
-            obj[item.name] = item.score;
-            return obj;
-        }, {});
-        setSubjectState(subjectsObject)
+        if (editData?.subjects) {
+            const subjectsObject = editData?.subjects?.reduce((obj, item) => {
+                obj[item.name] = item.score;
+                return obj;
+            }, {});
+            setSubjectState(subjectsObject)
+        }
+
+
     }, [editData]);
     useEffect(() => {
         if (formData.stream !== editData.stream) {
             setSubjectState({})
         } else {
-            setSubjectState({ ...editData.subjects })
+            if (editData?.subjects) {
+                const subjectsObject = editData?.subjects?.reduce((obj, item) => {
+                    obj[item.name] = item.score;
+                    return obj;
+                }, {});
+                setSubjectState(subjectsObject)
+            }
         }
     }, [formData])
 
