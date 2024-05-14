@@ -1,8 +1,52 @@
-# React + Vite
+# University Dashboard:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The University Dashboard is a web application built to manage student enrollment, fields/streams, subjects, and marks within a university. It provides functionalities for both administrators and students.
 
-Currently, two official plugins are available:
+## Important Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Deployed Link](https://rurux-frontend-lemon.vercel.app/)
+
+- [Repo Link]()
+
+## Project Timeline
+
+- **Starting Time:** May 13th, 8:00 PM
+- **Completion Time:** May 14th, 11:30 PM
+
+## Technologies Used
+
+- Frontend:
+
+  - HTML
+  - CSS
+  - ChakraUI
+  - JavaScript
+  - React
+
+- Backend:
+
+  - Node
+  - Express
+  - MongoDB
+
+  ## Usage
+
+### Admin Login:
+
+- **Username:** admin
+- **Email:** admin@gmail.com
+- **Password:** admin
+  - Use these credentials to log in and access the admin dashboard.
+
+### Student Login:
+
+- **Username:** xyz
+- **Email:** xyz@gmail.com
+- **Password:** password
+  - Use these credentials to log in as a student.
+
+# Created by Arti Soni
+
+- [LinkedIn](https://www.linkedin.com/in/arti-soni/)
+- [Portfolio](https://artisonii.github.io/)
+- [GitHub](https://github.com/artisonii)
