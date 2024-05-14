@@ -6,7 +6,8 @@ The University Dashboard is a web application built to manage student enrollment
 
 - [Deployed Link](https://rurux-frontend-lemon.vercel.app/)
 
-- [Repo Link]()
+- [Repo Link for Frontend](https://github.com/artisonii/rurux_frontend?tab=readme-ov-file)
+- [Repo Link for Backend](https://github.com/artisonii/rurux_backend)
 
 ## Project Timeline
 
