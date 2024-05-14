@@ -1,6 +1,6 @@
 # University Dashboard:
 
-The University Dashboard is a web application built to manage student enrollment, fields/streams, subjects, and marks within a university. It provides functionalities for both administrators and students.
+The University Dashboard is a web application built to manage students enrollment, fields/streams, subjects, and marks within a university. It provides functionalities for both administrators and students.
 
 ## Important Links
 
@@ -32,19 +32,20 @@ The University Dashboard is a web application built to manage student enrollment
 
   ## Usage
 
-### Admin Login:
+## Admin Login:
 
 - **Username:** admin
 - **Email:** admin@gmail.com
 - **Password:** admin
   - Use these credentials to log in and access the admin dashboard.
 
-### Student Login:
+## Student Login:
 
 - **Username:** xyz
 - **Email:** xyz@gmail.com
 - **Password:** password
   - Use these credentials to log in as a student.
+  <p style="font-size: larger; color: red;">Note :- Admin has to set stream, year and marks then students can see the Pie chart and scores in their profile</p>
 
 # Created by Arti Soni
 
